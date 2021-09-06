@@ -25,11 +25,18 @@ public class function {
 			a.put(emailid, u);
 			return "user added ";
 		}
-	
-				
-				
-		
+
 		
 	}
+	 
+	 public user storeuserinfo(String emailid) {
+		 
+		 if(a.containsKey(emailid)) 
+			 
+			return a.get("emailid");
+			
+		 return null;
+	
+	 }
 
 }
